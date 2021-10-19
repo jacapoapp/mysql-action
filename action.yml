@@ -33,6 +33,10 @@ inputs:
     description: 'MYSQL_DATABASE - name for the default database that is created'
     required: false
     default: ''
+  mysql extra args:
+    description: 'Additional arguments to pass to MySQL Docker run'
+    required: false
+    default: ''
   mysql user:
     description: 'MYSQL_USER - create the specified user with superuser power for created database'
     required: false
